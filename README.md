@@ -204,7 +204,7 @@ $db->close();
 
 - Pada file index.php juga terdapat pemanggilan class library Form dan Database yang berfungsi untuk memproses inputan yang dimasukkan oleh pengguna dan menyimpan data tersebut ke dalam database.
 
-- Dengan adanya file index.php, pengguna dapat melakukan input data mahasiswa dengan mudah dan nyaman melalui halaman web yang sudah terintegrasi dengan database MySQL.
+- Dengan adanya file index.php, pengguna dapat melakukan input data users dengan mudah dan nyaman melalui halaman web yang sudah terintegrasi dengan database MySQL.
 
 <br>
 <br>
@@ -233,7 +233,7 @@ header('Location: index.php');
 
 ```
 
-- File save.php pada kode program tersebut berfungsi untuk memproses data yang telah di-submit oleh pengguna melalui halaman index.php. Setelah pengguna menekan tombol "Simpan" pada formulir input data mahasiswa, data akan dikirim ke halaman save.php untuk diproses.
+- File save.php pada kode program tersebut berfungsi untuk memproses data yang telah di-submit oleh pengguna melalui halaman index.php. Setelah pengguna menekan tombol "Simpan" pada formulir input data users, data akan dikirim ke halaman save.php untuk diproses.
 
 - Pada file save.php, terdapat pemanggilan class library Database yang digunakan untuk melakukan koneksi ke database MySQL dan menjalankan query untuk menyimpan data yang diinputkan oleh pengguna.
 
